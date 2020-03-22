@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+    accesslog:
+      enabled: true
+    basedir: logs
+  max-http-header-size: 2000
+  port: 8080
+
